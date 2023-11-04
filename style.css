@@ -1,0 +1,57 @@
+body{
+    background: #00C78F;
+}
+
+#title-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #C7003D;
+    border-radius: 12px;
+    font-family: Roboto;
+    font:900;
+    padding-inline-start: 8px;
+}
+
+#name_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    height: 100px;
+    margin: 4px;
+    padding: 10px;
+    background-color: #E37F9D;
+    border-radius: 25px;
+}
+
+.top-bt{
+    margin-left: px;
+    align-self: center;
+    background-color: #C7003D;
+    border: none;
+    font-family: Roboto;
+    font: 900;
+    font-size: x-large;
+}
+
+#title-barr{
+    display: flex;
+    flex-direction: row;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main > img{
+    margin-top: 8px;
+    height: 500px;
+    background-color: #c7053d;
+    border-radius: 500px;
+}
