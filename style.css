@@ -1,5 +1,5 @@
 body{
-    background: #00C78F;
+    background: black;
 }
 
 #title-bar{
@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    background-color: #C7003D;
+    background-color: #FFA500;
     border-radius: 12px;
     font-family: Roboto;
     font:900;
@@ -24,18 +24,21 @@ body{
     height: 100px;
     margin: 4px;
     padding: 10px;
-    background-color: #E37F9D;
+    background-color: orange;
     border-radius: 25px;
 }
 
 .top-bt{
     margin-left: px;
     align-self: center;
-    background-color: #C7003D;
+    background-color: orange;
     border: none;
+    margin-left: 7px;
+    margin-right: 7px;
     font-family: Roboto;
     font: 900;
-    font-size: x-large;
+    font-size: xx-large;
+    border-radius: 8px;
 }
 
 #title-barr{
@@ -49,9 +52,63 @@ body{
     align-items: center;
 }
 
-#main > img{
-    margin-top: 8px;
+#pi{
+    margin-top: 30px;
     height: 500px;
-    background-color: #c7053d;
+    background-color: orange;
     border-radius: 500px;
+}
+
+#main > p{
+    color: black;
+    font-size: x-large;
+    font-family: Roboto;
+    max-width: 700px;
+    justify-content: center;
+}
+
+#rp1{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    width: 950px;
+}
+
+#soc{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    width: 950px;
+}
+
+#pcie{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    width: 950px;
+}
+
+.images{
+    width: 350px;
+    border-radius: 25px;
+    padding: 12px;
+}
+
+.text{
+    font-size: x-large;
+    font-family: Roboto;
+    text-align: justify;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.text2{
+    font-size: xx-large;
+    font-family: Roboto;
+    text-align: left;
+    color: whitesmoke;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 4px;
 }
