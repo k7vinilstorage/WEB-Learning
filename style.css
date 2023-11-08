@@ -5,6 +5,7 @@ body{
 #body-main{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #title-bar{
@@ -57,6 +58,18 @@ body{
     align-items: center;
 }
 
+#pi-pico{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#pi-zero{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
 #pi{
     margin-top: 30px;
     height: 500px;
@@ -97,6 +110,21 @@ body{
     width: 350px;
     border-radius: 25px;
     padding: 12px;
+}
+
+.side-image{
+    display: flex;
+    padding: 10px;
+    width: 450px;
+    border-radius: 25px;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 650px;
+    margin-top: 250px;
 }
 
 .text{
